@@ -27,7 +27,7 @@ function sendAccountEmail($toEmail, $toName, $plainPassword, $isNew = true) {
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username = 'rumaise777@gmail.com';    
-        $mail->Password = 'bzrr ztys firb zlnj';      
+        $mail->Password = 'your app password';      
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
